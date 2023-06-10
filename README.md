@@ -1,8 +1,11 @@
 Arango HTTP R
 ============
 
-Introduction
-------------------------
+## Update 
+This project uses HTTP connection to reach to ArangoDB. If you want to use an R driver to connect there, feel free to have a look at https://gitlab.com/krpack/arango-driver
+
+
+# Introduction
 
 This project contains sample code to extract data from ArangoDB into R to integrate with igraph library. After extracting data applies:
 - Different metrics on the igraph graph already created
@@ -10,8 +13,7 @@ This project contains sample code to extract data from ArangoDB into R to integr
 - Network plotting using two different R libraries
 - Community detection using network configuration
 
-Details on the project
-------------------------
+# Details on the project
 
 Arango DB is an Open Source Multimodel Database. There are very few samples on how to integrate it with R, so this will help the Community on how to use both.
 
